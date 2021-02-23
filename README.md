@@ -19,9 +19,6 @@ RewriteCond %{HTTP:Authorization} ^(.*)
 RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
 ```
 
-### Usage
-In the admin user interface, go to **Tools > APIs** and use the Create button to generate a new api resource
-
 ### Manually Create an API resource
 
 The below command will generate both `Controller` and `Transformer` for the specified resource
